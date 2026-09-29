@@ -13,6 +13,7 @@ An automated GitOps continuous delivery pipeline that deploys a Flask web applic
 - [GitOps Configuration](#gitops-configuration)
 - [Self-Healing & Drift Correction Test](#self-healing--drift-correction-test)
 - [Verification](#verification)
+- [Screenshots & Proof of Deployment](#-screenshots--proof-of-deployment)
 
 ---
 
@@ -37,6 +38,7 @@ An automated GitOps continuous delivery pipeline that deploys a Flask web applic
 ├── k8s/
 │   ├── deployment.yaml   # Kubernetes Deployment manifest (2 replicas)
 │   └── service.yaml      # ClusterIP Service manifest (port 5000)
+├── screenshots/          # Proof-of-deployment images used in this README
 ├── argocd-app.yaml       # Argo CD Application custom resource
 ├── app.py                # Flask application source code
 └── README.md             # Project documentation
@@ -156,3 +158,25 @@ kubectl exec -n gitops-demo deploy/gitops-demo -- python -c "import urllib.reque
 ```text
 GitOps deployment with Argo CD is working!
 ```
+
+---
+
+## 📸 Screenshots & Proof of Deployment
+
+### 1. Argo CD Dashboard Overview
+
+![Argo CD Dashboard](screenshots/argocd-dashboard.png)
+
+### 2. Application Sync & Topology State
+
+![Argo CD Application Detail](screenshots/argocd-application.png)
+
+![Argo CD Synced Status](screenshots/synced.png)
+
+### 3. Application Verification Output
+
+![Application Output](screenshots/application.png)
+
+### 4. GitOps Automated Drift Correction (Self-Healing)
+
+![Self-Healing Test](screenshots/self-healing.png)
