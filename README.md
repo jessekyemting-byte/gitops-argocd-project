@@ -165,18 +165,18 @@ GitOps deployment with Argo CD is working!
 
 ### 1. Argo CD Dashboard Overview
 
-![Argo CD Dashboard](screenshots/argocd-dashboard.png)
+![Argo CD Dashboard](screenshots/argocd-dashboard.jpg)
 
 ### 2. Application Sync & Topology State
 
-![Argo CD Application Detail](screenshots/argocd-application.png)
+![Argo CD Application Detail](screenshots/argocd-application.jpg)
 
-![Argo CD Synced Status](screenshots/synced.png)
+![Argo CD Synced Status](screenshots/synced.jpg)
 
 ### 3. Application Verification Output
 
-![Application Output](screenshots/application.png)
+![Application Output](screenshots/application.jpg)
 
 ### 4. GitOps Automated Drift Correction (Self-Healing)
 
-![Self-Healing Test](screenshots/self-healing.png)
+![Self-Healing Test](screenshots/self-healing.jpg)
