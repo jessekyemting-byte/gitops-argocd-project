@@ -179,4 +179,4 @@ GitOps deployment with Argo CD is working!
 
 ### 4. GitOps Automated Drift Correction (Self-Healing)
 
-![Self-Healing Test](screenshots/self-healing.jpg)
+![Self-Healing Test](screenshots/self healing.jpg)
